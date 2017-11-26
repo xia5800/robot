@@ -42,5 +42,5 @@ class robotes:
         else:
             # 错误信息
             robotsay = data['msg']
-            print robotsay     # 打印错误信息
+            # print robotsay     # 打印错误信息
             literals_TO_voice.say(robotsay,WAV)
