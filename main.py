@@ -18,15 +18,17 @@ if __name__ == "__main__":
     flag = True
     while flag:
         # 1.录音
-        print "请说话,说'退出'结束程序："
+        print "请说话："
         sound_recording.record_to_file(r'..\file\demo.wav')
-        print "录音结束"
+        print "录音结束,说'退出'结束程序"
         # 2.声音转文字 保存到say变量里去
         say = voice_TO_literals.get_say()
         # print say
         # 3.机器人回答
         if '退出' not in say:
-            rbot.run(say)       # 把机器人回答转成语音
-            playMusic()         # 播放声音
+            # 把机器人回答转成语音
+            rbot.run(say,r'.\file\test.mp3')
+            # 播放语音
+            playMusic()
         else:
             flag = False
