@@ -2,9 +2,9 @@
 基于Python2.7开发的语音聊天机器人
 
 ## 要安装的包有: 
---pyaudio  
---baidu-aip  
---mp3play  
+- pyaudio  
+- baidu-aip  
+- mp3play  
 
 # 安装方法: 
 ``` python
