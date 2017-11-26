@@ -20,7 +20,7 @@ def get_file_content(filePath):
         return fp.read()
 
 # 识别本地文件
-def get_say():
+def get_say(WAV):
     content = aipSpeech.asr(get_file_content('demo.wav'), 'wav', 16000, {
         'lan': 'zh',
     })
