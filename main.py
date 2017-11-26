@@ -1,4 +1,9 @@
+#!/usr/bin/env python
 # -*- coding:utf-8 -*-
+# @Date     : 2017/11/20
+# @Author   : GCC
+# @Version  : 1.0
+# @describe : 启动程序
 from rbot import robotes
 from tools import literals_TO_voice # 文字转声音
 from tools import sound_recording   # 录音
