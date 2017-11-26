@@ -1,12 +1,11 @@
 # robot
 基于Python2.7开发的语音聊天机器人
 
-# 要安装的包有: 
-```
-1.pyaudio
-2.baidu-aip
-3.mp3play
-```
+## 要安装的包有: 
+-- pyaudio
+-- baidu-aip
+-- mp3play
+
 # 安装方法: 
 ``` python
 pip install pyaudio
